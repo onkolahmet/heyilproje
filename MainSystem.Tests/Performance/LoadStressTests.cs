@@ -1,5 +1,5 @@
-using NBomber.CSharp;
-using NBomber.Http.CSharp;
+using Xunit;
+using FluentAssertions;
 
 namespace MainSystem.Tests.Performance;
 

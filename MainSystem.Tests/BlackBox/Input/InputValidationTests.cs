@@ -1,3 +1,4 @@
+using Xunit;
 using FluentAssertions;
 using MainSystem.Domain.ValueObjects;
 using MainSystem.Domain.Entities;

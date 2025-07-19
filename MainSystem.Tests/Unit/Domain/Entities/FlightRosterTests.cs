@@ -1,3 +1,4 @@
+using Xunit;
 using FluentAssertions;
 using MainSystem.Domain.Entities;
 using MainSystem.Domain.Enums;

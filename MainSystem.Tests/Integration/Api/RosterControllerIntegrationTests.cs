@@ -1,3 +1,4 @@
+using Xunit;
 using FluentAssertions;
 using MainSystem.Tests.Helpers;
 using Microsoft.AspNetCore.Mvc.Testing;
