@@ -37,34 +37,16 @@ A comprehensive .NET 8 application for managing flight crew and passenger assign
 
 ## 🧹 Cleanup & Maintenance
 
-### Quick Cleanup (when things get messy)
-If you encounter build issues or want to clean build artifacts:
-
-```bash
-# Quick one-liner cleanup
-find . \( -name "bin" -o -name "obj" \) -type d -exec rm -rf {} + 2>/dev/null
-
-# Then restore and rebuild
-dotnet restore
-dotnet build
-```
 
 ### Cleanup Scripts
 The project includes automated cleanup scripts:
 
 - **`cleanup.sh`** - Standard cleanup (removes bin/obj, temp files, test results)
-- **`deep-cleanup.sh`** - Nuclear option (aggressive cleanup including caches)
-
 ```bash
 # Make scripts executable
 chmod +x cleanup.sh
-chmod +x deep-cleanup.sh
-
 # Run standard cleanup
 ./cleanup.sh
-
-# Run deep cleanup (when things are really broken)
-./deep-cleanup.sh
 ```
 
 ### Git Ignore
@@ -92,7 +74,6 @@ MainSystem/
 │   ├── Security/                    # Authentication & authorization tests
 │   └── Performance/                 # Load & stress tests
 ├── cleanup.sh                       # Cleanup script
-├── deep-cleanup.sh                  # Deep cleanup script
 └── README.md                        # This file
 ```
 
@@ -136,43 +117,6 @@ dotnet test --logger "console;verbosity=detailed"
 - **Role-based Security** - Admin/Viewer access control
 - **External API Integration** - Flight, crew, and passenger data sources
 
-## 🔧 Development Workflow
-
-### Starting Development
-```bash
-# 1. Clean any previous builds
-./cleanup.sh
-
-# 2. Restore packages
-dotnet restore
-
-# 3. Build solution
-dotnet build
-
-# 4. Verify tests
-dotnet test --list-tests
-
-# 5. Run API (for integration tests)
-cd MainSystem.Api
-dotnet run
-```
-
-### When Things Go Wrong
-```bash
-# Nuclear cleanup and rebuild
-./deep-cleanup.sh
-dotnet restore
-dotnet build
-dotnet test --list-tests
-```
-
-### Common Issues
-
-1. **Build Failures**: Run `./cleanup.sh` then `dotnet restore`
-2. **Test Discovery Issues**: Ensure you're in the solution root, then run `dotnet test --list-tests`
-3. **Package Conflicts**: Run `./deep-cleanup.sh` to clear all caches
-4. **Performance Test Errors**: NBomber tests may need additional setup
-
 ## 🔍 Troubleshooting
 
 ### If `dotnet test --list-tests` shows errors:
@@ -182,16 +126,7 @@ dotnet test --list-tests
 4. Build: `dotnet build`
 5. Try again: `dotnet test --list-tests`
 
-### If integration tests fail:
-1. Make sure the API is running: `dotnet run` in `MainSystem.Api/`
-2. Check database connection strings in `appsettings.json`
-3. Verify authentication setup
-
-### Performance test issues:
-- NBomber package conflicts can be resolved by commenting out problematic imports
-- Some performance tests may require external services to be running
-
-## 📝 Notes
+##  Notes
 
 - Always run commands from the **solution root** directory
 - Use cleanup scripts regularly to maintain a clean environment  
@@ -199,9 +134,3 @@ dotnet test --list-tests
 - Integration tests require the API to be running
 - Performance tests are optional and can be disabled if causing issues
 
-## 🤝 Contributing
-
-1. Run cleanup before starting: `./cleanup.sh`
-2. Make your changes
-3. Test your changes: `dotnet test`
-4. Clean before committing: `./cleanup.sh`
