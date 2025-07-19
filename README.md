@@ -12,7 +12,7 @@ A comprehensive .NET 8 application for managing flight crew and passenger assign
 
 1. **Navigate to the project root** (where `MainSystem.sln` is located):
    ```bash
-   cd /path/to/heyilproje/
+   cd <root_folder>
    ```
 
 2. **Restore NuGet packages**:
