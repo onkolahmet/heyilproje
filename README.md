@@ -108,7 +108,7 @@ dotnet test --filter "SimpleTests" -v normal
 dotnet test --logger "console;verbosity=detailed"
 ```
 
-## 🎯 Core Features
+## Core Features
 
 - **Flight Roster Generation** - Automatic crew and passenger assignment
 - **Seat Assignment Algorithms** - Multiple strategies (Greedy, Group-aware, Random)
