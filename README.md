@@ -2,7 +2,7 @@
 
 A comprehensive .NET 8 application for managing flight crew and passenger assignments with automated roster generation, seat allocation, and multiple testing strategies.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - .NET 8.0 SDK or later
@@ -35,7 +35,7 @@ A comprehensive .NET 8 application for managing flight crew and passenger assign
    dotnet test -v normal
    ```
 
-## 🧹 Cleanup & Maintenance
+## Cleanup
 
 
 ### Cleanup Scripts
@@ -57,7 +57,7 @@ The project includes a comprehensive `.gitignore` file that prevents:
 - User-specific files
 - Performance test reports
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 MainSystem/
@@ -77,18 +77,18 @@ MainSystem/
 └── README.md                        # This file
 ```
 
-## 🧪 Testing Strategy
+## Testing Strategy
 
 The project includes comprehensive testing at multiple levels:
 
 ### Test Types
-- **✅ Unit Tests** - Method/class level testing
-- **✅ Integration Tests** - API & database interaction testing
-- **✅ Black Box Tests** - Input/output validation
-- **✅ Acceptance Tests** - User story-driven feature testing
-- **🔄 Security Tests** - Authentication & authorization
-- **🔄 Performance Tests** - Response time & throughput
-- **🔄 Load/Stress Tests** - System behavior under load
+- **Unit Tests** - Method/class level testing
+- **Integration Tests** - API & database interaction testing
+- **Black Box Tests** - Input/output validation
+- **Acceptance Tests** - User story-driven feature testing
+- **Security Tests** - Authentication & authorization
+- **Performance Tests** - Response time & throughput
+- **Load/Stress Tests** - System behavior under load
 
 ### Running Tests
 
