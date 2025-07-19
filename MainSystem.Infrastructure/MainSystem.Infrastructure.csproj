@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<!-- Gereksiz Remove’lar sende kalabilir, restore ile ilgisi yok -->
+	<ItemGroup>
+		<Compile Remove="Persistence\Configurations\RosterMemberConfiguration.cs" />
+		<Compile Remove="PersonInfo.cs" />
+		<Compile Remove="Repositories\RosterRepository.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- HEPSİ 8.0.18 -->
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.18" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore"               Version="8.0.18" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational"    Version="8.0.18" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer"     Version="8.0.18" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design"        Version="8.0.18" PrivateAssets="all" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MainSystem.Application\MainSystem.Application.csproj" />
+		<ProjectReference Include="..\MainSystem.Domain\MainSystem.Domain.csproj" />
+	</ItemGroup>
+
+</Project>
