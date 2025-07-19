@@ -1,0 +1,16 @@
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/bin/Debug/net8.0/MainSystem.Application.deps.json
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/bin/Debug/net8.0/MainSystem.Application.dll
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/bin/Debug/net8.0/MainSystem.Application.pdb
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/bin/Debug/net8.0/MainSystem.Domain.dll
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/bin/Debug/net8.0/MainSystem.Domain.pdb
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/MainSystem.Application.csproj.AssemblyReference.cache
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/MainSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/MainSystem.Application.AssemblyInfoInputs.cache
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/MainSystem.Application.AssemblyInfo.cs
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/MainSystem.Application.csproj.CoreCompileInputs.cache
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/MainSystem.Application.sourcelink.json
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/MainSyst.C2F73365.Up2Date
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/MainSystem.Application.dll
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/refint/MainSystem.Application.dll
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/MainSystem.Application.pdb
+/Users/ahmetonkol/Documents/interviews/heyilproje/MainSystem.Application/obj/Debug/net8.0/ref/MainSystem.Application.dll
