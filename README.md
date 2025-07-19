@@ -117,7 +117,7 @@ dotnet test --logger "console;verbosity=detailed"
 - **Role-based Security** - Admin/Viewer access control
 - **External API Integration** - Flight, crew, and passenger data sources
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### If `dotnet test --list-tests` shows errors:
 1. Make sure you're in the project root (where `MainSystem.sln` is)
